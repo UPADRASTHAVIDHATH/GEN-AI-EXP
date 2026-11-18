@@ -14,6 +14,7 @@ Weekly Generative AI laboratory experiments using Python and the Google Gemini A
 | Week 2 | [`week2_llm/`](./week2_llm) | Modular LLM Client Wrapper & Automated Unit Testing |
 | Week 3 | [`week3_llm/`](./week3_llm) | Token Usage Cost Estimation & MongoDB Request Logging |
 | Week 4 | [`week4_llm/`](./week4_llm) | Tokenizer Lab (BPE, WordPiece, SentencePiece across English, Telugu, Hindi) |
+| Week 5 | [`week5_llm/`](./week5_llm) | Token Economics and Budget Management |
 
 ## Quick Setup
 
