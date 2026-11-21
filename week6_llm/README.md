@@ -18,7 +18,9 @@ To establish an automated evaluation baseline (v0.1) for an LLM (`llama3.2` via 
 ```text
 week6_llm/
 ├── .gitignore                 # Excludes cache, virtual environments, and temporary files
-├── 2520030597_Week-6.docx     # Word document lab report template
+├── 2520030597_Week-6.docx     # Word document lab report document
+├── 2520030597_Week-6_Output.pdf # Verified terminal execution proof PDF (Vidhath)
+├── output_screenshot.pdf      # Output screenshots converted to 2-page PDF
 ├── README.md                  # Experiment documentation
 ├── baseline_results.csv       # Pre-computed evaluation baseline results
 ├── golden_set.json            # Curated golden benchmark dataset (8 questions)
