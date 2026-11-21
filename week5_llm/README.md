@@ -15,7 +15,9 @@ Design and test a [`TokenBudgetManager`](./budget.py) that models LLM token econ
 ```text
 week5_llm/
 ├── .gitignore                 # Excludes virtual environments and cache files
-├── 2520030597_Week-5.docx     # Lab report template
+├── 2520030597_Week-5.docx     # Lab report document
+├── 2520030597_Week-5_Output.pdf # Verified terminal execution proof PDF (Vidhath)
+├── output_screenshot.pdf      # Output screenshot converted to PDF
 ├── README.md                  # Documentation
 ├── budget.py                  # Token economics & budget guardrail engine
 ├── requirements.txt           # Python dependencies
