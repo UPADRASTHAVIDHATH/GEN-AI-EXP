@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "category": "Foundations",
+    "question": "What is the primary difference between generative AI and discriminative AI?",
+    "expected_answer": "Generative AI models the joint probability distribution to create new data instances, whereas discriminative AI models conditional probability to classify or predict decision boundaries between labels.",
+    "target_keywords": ["generative", "discriminative", "probability", "classify", "labels"],
+    "reference": "Week 1: GenAI Fundamentals"
+  },
+  {
+    "id": 2,
+    "category": "Foundations",
+    "question": "What does hallucination mean in the context of Large Language Models?",
+    "expected_answer": "Hallucination refers to a phenomenon where an LLM generates plausible-sounding but factually incorrect, nonsensical, or ungrounded statements as if they were true.",
+    "target_keywords": ["hallucination", "factually incorrect", "plausible", "ungrounded", "factual"],
+    "reference": "Week 1: LLM Capabilities & Limitations"
+  },
+  {
+    "id": 3,
+    "category": "Tokenization",
+    "question": "Explain the difference between WordPiece and Byte-Pair Encoding (BPE) subword tokenization.",
+    "expected_answer": "BPE merges the most frequent adjacent symbol pairs based on raw co-occurrence frequency, whereas WordPiece selects pair merges that maximize the likelihood of the language model training data.",
+    "target_keywords": ["bpe", "wordpiece", "frequency", "likelihood", "subword"],
+    "reference": "Week 4: Subword Tokenizer Lab"
+  },
+  {
+    "id": 4,
+    "category": "Tokenization",
+    "question": "Why is SentencePiece beneficial for multilingual tokenization in languages like Telugu and Hindi?",
+    "expected_answer": "SentencePiece treats input as a raw byte or character sequence without requiring language-specific whitespace pre-tokenization, providing compact vocabularies and low fertility for non-Latin scripts.",
+    "target_keywords": ["sentencepiece", "whitespace", "pre-tokenization", "multilingual", "scripts"],
+    "reference": "Week 4: Multilingual Tokenization"
+  },
+  {
+    "id": 5,
+    "category": "Generation Control",
+    "question": "How does setting temperature to 0 affect LLM output generation?",
+    "expected_answer": "Setting temperature to 0 disables random sampling and forces greedy decoding, causing the model to deterministically select the token with the highest probability at each step.",
+    "target_keywords": ["temperature", "deterministic", "greedy", "probability", "sampling"],
+    "reference": "Week 2: Modular LLM Client Configuration"
+  },
+  {
+    "id": 6,
+    "category": "Prompt Engineering",
+    "question": "What is the role of system instructions compared to user prompts?",
+    "expected_answer": "System instructions establish high-level behavioral constraints, persona, and output guidelines for the model, whereas user prompts provide the immediate task, input text, or query to be processed.",
+    "target_keywords": ["system", "instructions", "persona", "constraints", "user prompt"],
+    "reference": "Week 2: System Prompts & Context"
+  },
+  {
+    "id": 7,
+    "category": "Token Economics",
+    "question": "Why are LLM completion tokens generally priced higher than prompt input tokens?",
+    "expected_answer": "Completion tokens require sequential autoregressive generation where each new token depends on all previous tokens with sustained GPU memory bandwidth, whereas prompt tokens can be processed in parallel during the prefill phase.",
+    "target_keywords": ["autoregressive", "sequential", "parallel", "prefill", "bandwidth"],
+    "reference": "Week 5: Token Economics & Budget Management"
+  },
+  {
+    "id": 8,
+    "category": "Evaluation",
+    "question": "What is a Golden Question Set and why is it essential for baseline evaluation?",
+    "expected_answer": "A Golden Question Set is a curated, high-quality benchmark dataset of domain-specific test questions with verified reference answers and evaluation criteria used to track model quality, detect regression, and compare model versions objectively.",
+    "target_keywords": ["golden", "curated", "benchmark", "reference", "regression"],
+    "reference": "Week 6: Baseline Evaluation"
+  }
+]
